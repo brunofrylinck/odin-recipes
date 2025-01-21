@@ -1,0 +1,62 @@
+body {
+    background-color: #638C6D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Adding text class to lists removed the bold from <strong> so using this rule as temporary fix; not ideal,
+would prefer using a class */
+strong {
+    text-decoration: underline;
+}
+
+.text {
+    color: #000000;
+    font-weight: 700;
+    margin-right: 50%;
+}
+
+.heading-page {
+    color: #EFB036;
+    text-align: left;
+}
+
+.heading-section {
+    color: #EFB036;
+}
+
+.heading-minor {
+    color: #E7FBB4;
+}
+
+.link {
+    color: #000000;
+
+}
+
+.link.return {
+    color: #C84C05;
+    font-weight: bold;
+}
+
+.align-center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.main-image {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 25%;
+    border: 5px solid #C84C05;
+
+}
+
+/* Add spacing between list items so they are easier to read */
+.list li {
+    margin-bottom: 10px;
+}
+
+
+
